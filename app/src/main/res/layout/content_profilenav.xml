@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sicovi.gmail.com.sicovi.ProfilenavActivity"
+    tools:showIn="@layout/activity_profilenav">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="17dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="200dp"
+        android:paddingTop="10dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/pengertian_gelaja_covid" />
+            <ImageView
+                android:id="@+id/panah"
+                android:layout_width="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="1in"
+                app:srcCompat="@drawable/panah"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/atas1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="Pengertian, Gejala, dan Penularan Covid-19" />
+            <TextView
+                android:id="@+id/atas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FF0000"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/isi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit karena infeksi virus ini disebut Covid-
+19. Virus Corona bisa menyebabkan gangguan ringan pada sistem pernapasan, infeksi paru- paru yang berat, hingga kematian." />
+            <TextView
+                android:id="@+id/kedua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FF0000"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/isi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Gejala Covid-19 umumnya muncul dalam waktu 2 hari sampai 2 minggu setelah penderita ter- papar virus Corona. Secara umum, ada 3 gejala umum yang muncul pada infeksi virus Corona yaitu:" />
+
+            <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="18dp"
+        android:stretchColumns="1">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/kosong1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text=""
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/isi21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Demam ( suhu tubuh > 38C )" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/kosong2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="" android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isi23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Batuk kering" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/isi24"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="3dp"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/isi25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Sesak Napas" />
+        </TableRow>
+                <TextView
+                    android:id="@+id/isi3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#808080"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="Ada beberapa gejala lain yang juga bisa muncul meskipun lebih jarang, yaitu:" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/isi31"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="" android:textStyle="bold"/>
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="1. Diare" />
+
+
+        </TableRow>
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/isi32"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="" android:textStyle="bold"/>
+
+                    <TextView
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="2. Sakit kepala" />
+            </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/isi33"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="" android:textStyle="bold"/>
+
+                    <TextView
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="3. Sakit tenggorokan" />
+                </TableRow>
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="" android:textStyle="bold" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="4. Konjungtivitis" />
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="" android:textStyle="bold"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="5. Hilang perasa" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:text=""/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="6. Anosmia" />
+        </TableRow>
+
+    </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

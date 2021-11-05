@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sicovi.gmail.com.sicovi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfilenavActivity"
+            android:label="Pengertian, Gejala, dan Penularan Covid-19"
+            android:parentActivityName=".ProfilenavActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfilenavActivity" />
+        </activity>
+        <activity
+            android:name=".EduActivity"
+            android:label="Protokol Isolasi Mandiri"
+            android:parentActivityName=".EduActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EduActivity" />
+        </activity>
+
+        <activity
+            android:name=".PanduanPActivity"
+            android:label="Panduan Perilaku Cegah Covid-19"
+            android:parentActivityName=".PanduanPActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PanduanPActivity" />
+        </activity>
+        <activity
+            android:name=".WorkActivity"
+            android:label="Vaksinasi Convid-19"
+            android:parentActivityName=".WorkActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WorkActivity" />
+        </activity>
+        <activity
+            android:name=".KasusActivity"
+            android:label="Kasus Suspect"
+            android:parentActivityName=".KasusActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".KasusActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".KriteriaActivity"
+            android:label="Kriteria"
+            android:parentActivityName=".KriteriaActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".KriteriaActivity" />
+        </activity>
+
+        <activity
+            android:name=".ShareActivity"
+            android:label="Share Apps"
+            android:parentActivityName=".ShareActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ShareActivity" />
+        </activity>
+
+        <activity
+            android:name=".CallActivity"
+            android:label="Call Center Pelayanan"
+            android:parentActivityName=".CallActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CallActivity" />
+        </activity>
+
+        <activity
+            android:name=".TahapanActivity"
+            android:label="Share Apps"
+            android:parentActivityName=".TahapanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TahapanActivity" />
+        </activity>
+
+        <activity
+            android:name=".ScActivity"
+            android:label="Penilaian Mandiri Risiko"
+            android:parentActivityName=".ScActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ScActivity" />
+        </activity>
+        <activity
+            android:name=".PlayananActivity"
+            android:label="Pelayanan Krieria Individu"
+            android:parentActivityName=".PlayananActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PlayananActivity" />
+        </activity>
+
+        <activity
+            android:name=".InvoActivity"
+            android:label="Pelayanan Krieria Individu"
+            android:parentActivityName=".InvoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InvoActivity" />
+        </activity>
+    </application>
+
+</manifest>

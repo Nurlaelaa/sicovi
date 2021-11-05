@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_seputar"
+            android:icon="@mipmap/ic_infokesehatan_white_24dp"
+            android:title=""
+            app:actionLayout="@layout/activity_spinner"
+            />
+<!--        <Spinner-->
+
+<!--            android:id="@+id/navv_seputar"-->
+<!--            android:icon="@mipmap/ic_infokesehatan_white_24dp"-->
+<!--            android:title="Seputar Covid-19"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/et_username"-->
+<!--            android:entries="@array/squad_plugin"/>-->
+        <item
+            android:id="@+id/nav_panduan"
+            android:icon="@mipmap/ic_seputarcovid_white_24dp"
+            android:title="Panduan Isolasi Mandiri" />
+
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@mipmap/ic_call_black_24dp"
+            android:title="Call Center Pelayanan Covid-19" />
+
+        <item
+            android:id="@+id/nav_vaksinasi"
+            android:icon="@mipmap/ic_cekkesehatan_white_24dp"
+            android:title="Vaksinasi Covid-19" />
+        <item
+            android:id="@+id/nav_panduanperilaku"
+            android:icon="@mipmap/ic_seputarcovid_white_24dp"
+            android:title="Panduan Perilaku Cegah Covid-19" />
+        <item
+            android:id="@+id/nav_Screening"
+            android:icon="@mipmap/ic_vaksin_black_24dp"
+            android:title="Penilaian Mandiri Risiko Covid-19" />
+        <item
+            android:id="@+id/nav_kriteria"
+            android:icon="@mipmap/ic_unduh_white_24dp"
+            android:title="Herbal Imuniti, Jaga Imun di Masa Pandemi" />
+    </group>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_others"-->
+<!--        android:icon="@mipmap/ic_share_white_24dp"-->
+<!--        android:title="OTHERS">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@mipmap/ic_share_white_24dp"-->
+<!--                android:title="Share Apps" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/nav_pengertian"-->
+<!--                android:icon="@mipmap/ic_pengertian_24dp"-->
+<!--                android:title="Pengertian dan Tahapan Vaksinasi Covid-19" />-->
+
+
+<!--            <item-->
+<!--                android:id="@+id/nav_Screening"-->
+<!--                android:icon="@mipmap/ic_vaksin_black_24dp"-->
+<!--                android:title="Screening" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/nav_pelayanancriteria"-->
+<!--                android:icon="@mipmap/ic_pelayanan_24dp"-->
+<!--                android:title="Pelayanan Kriteria Individu Tidak Boleh divaksinasi Covid-19" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/nav_infokipi"-->
+<!--                android:icon="@mipmap/ic_info_24dp"-->
+<!--                android:title="Informasi KIPI(Kejadian Ikutan Pasca Imunisasi" />-->
+
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

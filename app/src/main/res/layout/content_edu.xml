@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sicovi.gmail.com.sicovi.EduActivity"
+    tools:showIn="@layout/activity_edu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_width="200dp"
+                android:paddingTop="10dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/protokol" />
+            <ImageView
+                android:id="@+id/panahh"
+                android:layout_width="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="1in"
+                app:srcCompat="@drawable/panah"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/atas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="Protokol Isolasi Mandiri" />
+            <TextView
+                android:id="@+id/atas11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ada beberapa protokol isolasi mandiri yang bisa dilakukan di rumah yaitu:" />
+
+            <TextView
+                android:id="@+id/atas12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="1. Selalu memakai masker dan membuang masker bekas di " />
+            <TextView
+                android:id="@+id/atas13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="     tempat yang ditentukan." />
+
+            <TextView
+                android:id="@+id/atas14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="2. Jika sakit (ada gejala demam, flu dan batuk)" />
+            <TextView
+                android:id="@+id/atas15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="29dp"
+                android:layout_marginLeft="29dp"
+                android:text="Maka tetap di rumah. Jangan pergi bekerja, sekolah, ke pasar atau ke ruang publik untuk mencegah penularan masyarakat. " />
+
+            <TextView
+                android:id="@+id/atas16"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="3. Manfaatkan fasilitas telemedicine atau sosmed kesehatan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="hindari transportasi publik. Beritahu dokter dan perawat tentang keluhan dan gejala, serta riwayat bekerja ke daerah terjangkit atau kontak dengan pasien Covid-19."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="4. Selama di rumah, bisa bekerja di rumah."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Gunakan kamar terpisah dari anggota keluarga lainnya, dan jaga jarak 1 meter dari anggota keluarga."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="5. Tentukan cek suhu harian, amati batuk, sesak nafas."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Hindari pemakaian bersama peralatan makan dan mandi dan tempat tidur."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="6. Terapkan perilaku hidup sehat dan bersih"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                 />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Konsumsi makanan bergizi, mencuci tangan dengan sabun dan air mengalir dan lakukan etika batuk dan bersin."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

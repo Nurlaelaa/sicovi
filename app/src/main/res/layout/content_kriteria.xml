@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sicovi.gmail.com.sicovi.KriteriaActivity"
+    tools:showIn="@layout/activity_kriteria">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_width="200dp"
+                android:paddingTop="10dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/kriteria" />
+            <ImageView
+                android:id="@+id/panahh"
+                android:layout_width="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="1in"
+                app:srcCompat="@drawable/panah"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/atas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Pelayanan Kriteria Individu Tidak Boleh divaksinasi Covid-19" />
+            <TextView
+                android:id="@+id/atas129"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="25dp"
+                android:text="" />
+            <TextView
+                android:id="@+id/atas11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="1. Orang yang sedang demam dengan suhu > 37,5 °C" />
+
+
+            <TextView
+                android:id="@+id/atas13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="2.Orang dengan hipertensi tidak terkontrol" />
+
+            <TextView
+                android:id="@+id/atas14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="25dp"
+                android:text="Yaitu tekanan darah > 180/110 mmHg (Jika tekanan darah >180/110 mmHg pengukuran tekanan darah diulang 5 (lima) sampai 10 (sepuluh) menit kemudian. Jika masih tinggi maka vaksinasi ditunda sampai terkontrol)" />
+
+            <TextView
+                android:id="@+id/atas16"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="3. Orang yang mengalami alergi berat setelah divaksinasi Covid-19"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="sebelumnya (vaksinasi dosis 1) maka tidak bisa mendapatkan vaksinasi Covid-19 dosis kedua."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/atas167"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="4. Orang yang sedang hamil, ditunda sampai melahirkan."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/atas1678"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="5. Orang yang mengidap penyakit autoimun seperti asma"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Vaksinasi ditunda jika se- dang dalam kondisi akut atau belum terkendali."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+
+            <TextView
+                android:id="@+id/atas16781"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="6. Orang yang sedang mendapat pengobatan untuk gangguan pembekuan darah"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+            <TextView
+                android:id="@+id/tv199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Kelainan darah, defisiensi imun dan penerima produk darah/transfusi. Vaksinasi ditunda dan dirujuk."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+
+            <TextView
+                android:id="@+id/atas1678111"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="7. Orang yang sedang mendapat pengobatan "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+            <TextView
+                android:id="@+id/tv1299"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="immunosupressant seperti kortikosteroid dan kemoterapi. Vaksinasi ditunda dan dirujuk."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

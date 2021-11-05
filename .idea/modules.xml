@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FirdausCv.iml" filepath="$PROJECT_DIR$/FirdausCv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sicovi.iml" filepath="$PROJECT_DIR$/.idea/modules/Sicovi.iml" group="Sicovi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Sicovi-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Sicovi-app.iml" group="Sicovi/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

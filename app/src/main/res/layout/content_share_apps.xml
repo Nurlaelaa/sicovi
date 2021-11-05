@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sicovi.gmail.com.sicovi.CallActivity"
+    tools:showIn="@layout/activity_share">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1113">
+
+        <LinearLayout
+            android:id="@+id/contact"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="120px"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_margin="20px"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:background="#0088ff"
+                android:gravity="center"
+                android:text="Share"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imgrute1"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:src="@drawable/icon_whatsapp"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="850px"/>
+        <ImageView
+            android:id="@+id/imgtelp1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_telegram"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="950px"
+            />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

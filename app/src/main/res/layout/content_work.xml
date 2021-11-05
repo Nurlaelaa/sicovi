@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sicovi.gmail.com.sicovi.WorkActivity"
+    tools:showIn="@layout/activity_work">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="17dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="200dp"
+        android:paddingTop="10dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/vaksin" />
+    <ImageView
+        android:id="@+id/panah"
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="1in"
+        app:srcCompat="@drawable/panah"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/atas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:text="Vaksinasi Covid-19" />
+    <TextView
+        android:id="@+id/atas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/isi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#808080"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Vaksinasi adalah pemberian vaksin yang khusus diberikan dalam rangka meningkatkan kekebalan seseorang secara aktif terhadap suatu penyakit. Berkaitan dengan pandemi ini, ada empat tujuan vaksinasi COVID-19. Pertama, mengurangi penularan COVID-19. Kedua, menurunkan angka kesakitan dan kematian akibat COVID-19. Ketiga, mencapai herd immunity. Terakhir, melindungi masyarakat agar tetap produktif." />
+    <TextView
+        android:id="@+id/kedua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#808080"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Berkaitan dengan pandemi ini, ada empat tujuan vaksinasi COVID-19. Pertama, mengurangi penularan COVID-19. Kedua, menurunkan angka kesakitan dan kematian akibat COVID-19. Ketiga, mencapai herd immunity. Terakhir, melindungi masyarakat agar tetap produktif." />
+
+    <TextView
+        android:id="@+id/isi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#808080"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Berikut ini cara menghadapi mutasi virus Covid-19 yaitu dengan menerapkan perilaku hidup bersih dan sehat (PHBS) yaitu:" />
+        <TextView
+            android:id="@+id/isi22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#808080"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text=""/>
+        <TextView
+            android:id="@+id/isi2222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#808080"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="1.Tetaplah disiplin menerapkan 5M." />
+        <TextView
+            android:id="@+id/isi222222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#808080"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="2.Lakukan vaksinasi saat mendapat kesempatan." />
+        <TextView
+        android:id="@+id/isi222222222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#808080"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="3.Perkuat sistem imun dengan berolahraga, istirahat cukup, hati gembira, makan makanan bergizi dan dapat memanfaatkan ramuan tradisional secara bijak." />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sicovi.gmail.com.sicovi.TahapanActivity"
+    tools:showIn="@layout/activity_tahapan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_width="200dp"
+                android:paddingTop="10dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/jenis" />
+            <ImageView
+                android:id="@+id/panahh"
+                android:layout_width="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="1in"
+                app:srcCompat="@drawable/panah"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/atas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:text="Pengertian dan Tahapan Vaksinasi Covid-19" />
+            <TextView
+                android:id="@+id/atas11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Vaksinasi adalah pemberian vaksin dalam rangka meningkatkan kekebalan seseorang secara aktif terhadap suatu penyakit, sehingga apabila suatu saat terpapar dengan penyakit terse- but tidak akan sakit atau hanya mengalami sakit ringan dan tidak menjadi sumber penularan." />
+
+            <TextView
+                android:id="@+id/atas114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Vaksinasi Covid-19 dilaksanakan dalam 4 tahapan sebagai berikut:" />
+
+            <TextView
+                android:id="@+id/atas124"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="1. Gelombang I dilaksanakan mulai bulan Januari-April 2021" />
+
+
+            <TextView
+                android:id="@+id/atas175"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="29dp"
+                android:layout_marginLeft="29dp"
+                android:text="Tahap 1 dengan sasaran kelompok prioritas untuk tenaga kesehatan, dan tahap 2 untuk petugas pelayanan publik dan lansia. " />
+
+            <TextView
+                android:id="@+id/atas167"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="2. Gelombang II dilaksanakan mulai April 2021 -Maret 2022"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/atas17865"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#808080"
+                android:layout_marginRight="29dp"
+                android:layout_marginLeft="29dp"
+                android:text="Tahap 3 dengan sasaran kelompok prioritas untuk masyarakat rentan yang tinggal di daerah mudah tertular dan tahap 4 untuk masyarakat lainnya." />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="4. Jenis Vaksin dan Pelayanan Vaksinasi Covid-19"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Jenis Vaksin  : Jumlah Dosis : Interval Min Dosis"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Sinovac           : 2 (0.5 ml)        : 28 hari"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView878"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Sinopharm     : 2 (0.5 ml)        : 12 minggu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView8178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Astra Zeneca : 2 (0.5 ml)        : 21 hari"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+            <TextView
+                android:id="@+id/textView81783"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Novavax          : 2 (0.5 ml)        : 28 hari"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView817832"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Moderna         : 2 (0.3 ml)        : 21-28 hari"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView8178321"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Pfizer               : 1 (0.5 ml)        : -"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            <TextView
+                android:id="@+id/textView81783211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Sputnix V        : 2 (0.5 ml)        : 21 hari"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+            <TextView
+                android:id="@+id/tv101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent" android:padding="16dp"
+    android:background="@drawable/home"
+tools:context="sicovi.gmail.com.sicovi.HomeFragment">
+
+
+    <RelativeLayout
+        android:layout_width="540dp"
+        android:layout_height="715dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:text=""
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

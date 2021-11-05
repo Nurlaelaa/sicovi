@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sicovi.gmail.com.sicovi.CallActivity"
+    tools:showIn="@layout/activity_call">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1113">
+
+        <LinearLayout
+            android:id="@+id/contact"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="120px"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="20px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:background="#0088ff"
+            android:gravity="center"
+            android:text="Puskesmas Kesambi"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imgrute1"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:src="@drawable/rut"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="850px"/>
+        <ImageView
+            android:id="@+id/imgtelp1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/telp"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="950px"
+            />
+        <LinearLayout
+            android:id="@+id/contact1"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="320px"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_margin="20px"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:background="#0088ff"
+                android:gravity="center"
+                android:text="Puskesmas Margasari"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgrute"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:src="@drawable/rut"
+            android:layout_marginTop="102dp"
+            android:layout_marginLeft="850px"/>
+        <ImageView
+            android:id="@+id/imgtelp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/telp"
+            android:layout_marginTop="109dp"
+            android:layout_marginLeft="950px"
+            />
+
+        <LinearLayout
+            android:id="@+id/contact2"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="520px"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_margin="20px"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:background="#0088ff"
+                android:gravity="center"
+                android:text="Puskesmas Kalibakung"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgrute3"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:src="@drawable/rut"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="850px"/>
+        <ImageView
+            android:id="@+id/imgtelp3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/telp"
+            android:layout_marginTop="187dp"
+            android:layout_marginLeft="950px"
+            />
+
+        <LinearLayout
+            android:id="@+id/contact3"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="720px"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_margin="20px"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:background="#0088ff"
+                android:gravity="center"
+                android:text="Puskesmas Bumijawa"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgrute4"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:src="@drawable/rut"
+            android:layout_marginTop="234dp"
+            android:layout_marginLeft="850px"/>
+        <ImageView
+            android:id="@+id/imgtelp4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/telp"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="950px"
+            />
+
+        <LinearLayout
+            android:id="@+id/contact5"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="920px"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_margin="20px"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:background="#0088ff"
+                android:gravity="center"
+                android:text="Puskesmas Bojong"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgrute5"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:src="@drawable/rut"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="850px"/>
+        <ImageView
+            android:id="@+id/imgtelp5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/telp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="950px"
+            />
+
+        <LinearLayout
+            android:id="@+id/contact6"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="1120px"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_margin="20px"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:background="#0088ff"
+                android:gravity="center"
+                android:text="Puskesmas Danasari"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgrute6"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:src="@drawable/rut"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="850px"/>
+        <ImageView
+            android:id="@+id/imgtelp6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/telp"
+            android:layout_marginTop="387dp"
+            android:layout_marginLeft="950px"
+            />
+
+        <LinearLayout
+            android:id="@+id/contact7"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="1320px"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_margin="20px"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:background="#0088ff"
+                android:gravity="center"
+                android:text="Puskesmas Pagerbarang"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgrute7"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:src="@drawable/rut"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="850px"/>
+        <ImageView
+            android:id="@+id/imgtelp7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/telp"
+            android:layout_marginTop="447dp"
+            android:layout_marginLeft="950px"
+            />
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
